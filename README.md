@@ -13,4 +13,6 @@ You can then run any of the Gradle tasks to build the project\
 To include this project in another project add this to your gradle dependencies
 
 compile group: 'com.cobradoc', name: 'cherokee-conjugation-utilities', version: '0.1.0'
+
+In order to compile this project you will need to pull https://bitbucket.org/cherokeedictionary/cherokee-transliteration build and install this project locally
   
