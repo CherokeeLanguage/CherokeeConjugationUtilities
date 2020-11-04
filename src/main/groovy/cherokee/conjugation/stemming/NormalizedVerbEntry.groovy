@@ -1,4 +1,4 @@
-package cherokee.conjugation.util
+package cherokee.conjugation.stemming
 
 import org.apache.commons.lang3.StringUtils
 

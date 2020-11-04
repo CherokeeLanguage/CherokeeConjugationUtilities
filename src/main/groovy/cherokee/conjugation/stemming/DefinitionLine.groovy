@@ -1,4 +1,4 @@
-package cherokee.conjugation.util
+package cherokee.conjugation.stemming
 
 class DefinitionLine {
     String cf

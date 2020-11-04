@@ -1,5 +1,6 @@
-package cherokee.conjugation.util
+package cherokee.conjugation.stemming
 
+import cherokee.conjugation.constants.Tense
 import com.cobradoc.cherokee.SyllabaryUtil
 import org.apache.commons.lang3.StringUtils
 
@@ -14,7 +15,18 @@ class Stemmer {
     DefinitionLine imperative = null
     DefinitionLine infinitive = null
 
-    String getStem(StemType type) {
+    public String getRoot(Tense type) {
+        String stem = SyllabaryUtil.parseSyllabary(getStem(type))
+        String root = ""
+
+        if (type == Tense.REMOTE_PAST) {
+
+        }
+
+            return root
+    }
+    
+    String getStem(Tense type) {
         def returnValue = ""
         getStems().each {
             if (it.stemtype == type) {
@@ -181,17 +193,17 @@ class Stemmer {
          */
         if (e.pres3.startsWith("Ꭹ") && e.past.startsWith("ᎤᏫ")) {
             List<StemEntry> list = new ArrayList<StemEntry>()
-            list.add(new StemEntry(newPrefix("Ꭲ", e.pres3), StemType.PRESENT_CONTINOUS))
-            list.add(new StemEntry(newPrefix("Ꭿ", discardPrefix(e.past)), StemType.REMOTE_PAST))
-            list.add(new StemEntry(newPrefix("Ꭲ", e.habit), StemType.HABITUAL))
+            list.add(new StemEntry(newPrefix("Ꭲ", e.pres3), Tense.PRESENT))
+            list.add(new StemEntry(newPrefix("Ꭿ", discardPrefix(e.past)), Tense.REMOTE_PAST))
+            list.add(new StemEntry(newPrefix("Ꭲ", e.habit), Tense.HABITUAL))
 
             if (e.imp.startsWith("Ꮂ")) {
-                list.add(new StemEntry(newPrefix("Ꭵ", e.imp), StemType.IMMEDIATE))
+                list.add(new StemEntry(newPrefix("Ꭵ", e.imp), Tense.IMMEDIATE_COMMAND))
             } else {
                 //App.err("Normalize Corner Case Needed: " + e.getEntries().toString())
             }
 
-            list.add(new StemEntry(newPrefix("Ꭿ", discardPrefix(e.inf)), StemType.DEVERBAL))
+            list.add(new StemEntry(newPrefix("Ꭿ", discardPrefix(e.inf)), Tense.DEVERBAL))
             return list
         }
 
@@ -350,11 +362,11 @@ class Stemmer {
         }
 
         List<StemEntry> list = new ArrayList<StemEntry>()
-        list.add(new StemEntry(newPrefix(vowel, e.pres3), StemType.PRESENT_CONTINOUS))
-        list.add(new StemEntry(newPrefix(vowel, e.past), StemType.REMOTE_PAST))
-        list.add(new StemEntry(newPrefix(vowel, e.habit), StemType.HABITUAL))
-        list.add(new StemEntry(newPrefix(vowel, e.imp), StemType.IMMEDIATE))
-        list.add(new StemEntry(newPrefix(vowel, e.inf), StemType.DEVERBAL))
+        list.add(new StemEntry(newPrefix(vowel, e.pres3), Tense.PRESENT))
+        list.add(new StemEntry(newPrefix(vowel, e.past), Tense.REMOTE_PAST))
+        list.add(new StemEntry(newPrefix(vowel, e.habit), Tense.HABITUAL))
+        list.add(new StemEntry(newPrefix(vowel, e.imp), Tense.IMMEDIATE_COMMAND))
+        list.add(new StemEntry(newPrefix(vowel, e.inf), Tense.DEVERBAL))
         return list
     }
 
@@ -364,11 +376,11 @@ class Stemmer {
         }
 
         List<StemEntry> list = new ArrayList<StemEntry>()
-        list.add(new StemEntry(discardPrefix(e.pres3), StemType.PRESENT_CONTINOUS))
-        list.add(new StemEntry(discardPrefix(e.past), StemType.REMOTE_PAST))
-        list.add(new StemEntry(discardPrefix(e.habit), StemType.HABITUAL))
-        list.add(new StemEntry(discardPrefix(e.imp), StemType.IMMEDIATE))
-        list.add(new StemEntry(discardPrefix(e.inf), StemType.DEVERBAL))
+        list.add(new StemEntry(discardPrefix(e.pres3), Tense.PRESENT))
+        list.add(new StemEntry(discardPrefix(e.past), Tense.REMOTE_PAST))
+        list.add(new StemEntry(discardPrefix(e.habit), Tense.HABITUAL))
+        list.add(new StemEntry(discardPrefix(e.imp), Tense.IMMEDIATE_COMMAND))
+        list.add(new StemEntry(discardPrefix(e.inf), Tense.DEVERBAL))
         return list
     }
 

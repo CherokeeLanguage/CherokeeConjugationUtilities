@@ -1,5 +1,0 @@
-package cherokee.conjugation.util
-
-enum StemType {
-    PRESENT_CONTINOUS, REMOTE_PAST, HABITUAL, IMMEDIATE, DEVERBAL, POSESSED_NOUN, ADJECTIVIAL, OTHER;
-}

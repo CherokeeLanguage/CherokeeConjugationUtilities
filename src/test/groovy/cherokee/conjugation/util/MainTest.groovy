@@ -1,5 +1,9 @@
 package cherokee.conjugation.util
 
+import cherokee.conjugation.constants.Tense
+import cherokee.conjugation.stemming.DefinitionLine
+import cherokee.conjugation.stemming.Stemmer
+
 class MainTest extends GroovyTestCase {
     static def hiwoniha = new Stemmer()
     static {
@@ -12,6 +16,6 @@ class MainTest extends GroovyTestCase {
     }
 
     void testGetStem() {
-        assertEquals("ᏬᏂᏒᎢ", hiwoniha.getStem(StemType.REMOTE_PAST))
+        assertEquals("ᏬᏂᏒᎢ", hiwoniha.getStem(Tense.REMOTE_PAST))
     }
 }

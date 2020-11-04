@@ -1,11 +1,12 @@
-package cherokee.conjugation.util
+package cherokee.conjugation.stemming
 
+import cherokee.conjugation.constants.Tense
 
 class StemEntry {
     String syllabary = ""
-    StemType stemtype = StemType.OTHER
+    Tense stemtype = Tense.OTHER
 
-    StemEntry(String syllabary, StemType stemType) {
+    StemEntry(String syllabary, Tense stemType) {
         this.syllabary = syllabary
         this.stemtype = stemType
     }
