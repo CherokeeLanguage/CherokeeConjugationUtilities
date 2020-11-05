@@ -166,11 +166,11 @@ class VerbCompoundPrefixes {
         prefixes.put("SG2SG3AN", new Prefix(preVowel: 'Ꭿy', preConsonant: 'Ꭿ', other: ''))
         prefixes.put("SG2SG3IN", new Prefix(preVowel: 'h', preConsonant: 'Ꭿ', other: ''))
         prefixes.put("SG2DL1INCL", new Prefix(preVowel: 'ᏍᎩn', preConsonant: 'ᏍᎩᏂ', other: ''))
-        prefixes.put("SG2DL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("SG2PL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("SG2DL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("SG2PL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("SG2PL1EXCL", new Prefix(preVowel: 'ᎢᏍᎩy', preConsonant: 'ᎢᏍᎩ', other: ''))
-        prefixes.put("SG2DL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("SG2PL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("SG2DL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("SG2PL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("SG2PL3AN", new Prefix(preVowel: 'ᎦᎯy', preConsonant: 'ᎦᎯ', other: ''))
         prefixes.put("SG2PL3IN", new Prefix(preVowel: 'Ꮥh', preConsonant: 'ᏕᎯ', other: ''))
 
@@ -188,55 +188,55 @@ class VerbCompoundPrefixes {
 //        prefixes.put("SG3PL3AN", new Prefix(preVowel: 'Ꮣg', preConsonant: 'ᏓᎪ', other: ''))
         prefixes.put("SG3PL3IN", new Prefix(preVowel: 'Ꮥg', preConsonant: 'ᏕᎩ', other: ''))
 
-        prefixes.put("DL1INCLSG1", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("DL1INCLSG2", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("DL1INCLSG1", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("DL1INCLSG2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("DL1INCLSG3AN", new Prefix(preVowel: 'Ꭱn', preConsonant: 'ᎡᏂ', other: ''))
         prefixes.put("DL1INCLSG3IN", new Prefix(preVowel: 'Ꭲn', preConsonant: 'ᎢᏂ', other: ''))
-        prefixes.put("DL1INCLDL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("DL1INCLDL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("DL1INCLPL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("DL1INCLPL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("DL1INCLDL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("DL1INCLPL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("DL1INCLDL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("DL1INCLDL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("DL1INCLPL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("DL1INCLPL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("DL1INCLDL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("DL1INCLPL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("DL1INCLPL3AN", new Prefix(preVowel: 'Ꭸn', preConsonant: 'ᎨᏂ', other: ''))
         prefixes.put("DL1INCLPL3IN", new Prefix(preVowel: 'Ꮥn', preConsonant: 'ᏕᏂ', other: ''))
 
-        prefixes.put("DL1EXCLSG1", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("DL1EXCLSG1", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("DL1EXCLSG2", new Prefix(preVowel: 'ᏍᏛy', preConsonant: 'ᏍᏛ', other: ''))
         prefixes.put("DL1EXCLSG3AN", new Prefix(preVowel: 'ᎣᏍd', preConsonant: 'ᎣᏍᏗ', other: ''))
         prefixes.put("DL1EXCLSG3IN", new Prefix(preVowel: 'ᎣᏍd', preConsonant: 'ᎣᏍᏗ', other: ''))
-        prefixes.put("DL1EXCLDL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("DL1EXCLDL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("DL1EXCLPL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("DL1EXCLPL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("DL1EXCLDL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("DL1EXCLDL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("DL1EXCLPL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("DL1EXCLPL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("DL1EXCLDL2", new Prefix(preVowel: 'ᏍᏛy', preConsonant: 'ᏍᏛ', other: ''))
         prefixes.put("DL1EXCLPL2", new Prefix(preVowel: 'Ꭲj', preConsonant: 'ᎢᏥ', other: ''))
         prefixes.put("DL1EXCLPL3AN", new Prefix(preVowel: 'ᎪᏍd', preConsonant: 'ᎪᏍᏗ', other: ''))
         prefixes.put("DL1EXCLPL3IN", new Prefix(preVowel: 'ᏙᏍd', preConsonant: 'ᏙᏍᏗ', other: ''))
 
-        prefixes.put("PL1INCLSG1", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL1INCLSG2", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("PL1INCLSG1", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL1INCLSG2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("PL1INCLSG3AN", new Prefix(preVowel: 'Ꭱd', preConsonant: 'ᎡᏗ', other: ''))
         prefixes.put("PL1INCLSG3IN", new Prefix(preVowel: 'Ꭲd', preConsonant: 'ᎢᏗ', other: ''))
-        prefixes.put("PL1INCLDL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL1INCLDL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL1INCLPL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL1INCLPL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL1INCLDL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL1INCLPL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("PL1INCLDL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL1INCLDL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL1INCLPL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL1INCLPL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL1INCLDL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL1INCLPL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("PL1INCLPL3AN", new Prefix(preVowel: 'Ꭸd', preConsonant: 'ᎨᏗ', other: ''))
         prefixes.put("PL1INCLPL3IN", new Prefix(preVowel: 'Ꮥd', preConsonant: 'ᏕᏗ', other: ''))
 
-        prefixes.put("PL1EXCLSG1", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("PL1EXCLSG1", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("PL1EXCLSG2", new Prefix(preVowel: 'ᎢᏨy', preConsonant: 'ᎢᏨ', other: ''))
         prefixes.put("PL1EXCLSG3AN", new Prefix(preVowel: 'Ꭳj', preConsonant: 'ᎣᏥ', other: ''))
         prefixes.put("PL1EXCLSG3IN", new Prefix(preVowel: 'Ꭳj', preConsonant: 'ᎣᏥ', other: ''))
-        prefixes.put("PL1EXCLDL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL1EXCLDL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL1EXCLPL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL1EXCLPL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL1EXCLDL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL1EXCLPL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("PL1EXCLDL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL1EXCLDL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL1EXCLPL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL1EXCLPL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL1EXCLDL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL1EXCLPL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("PL1EXCLPL3AN", new Prefix(preVowel: 'Ꭺj', preConsonant: 'ᎪᏥ', other: ''))
         prefixes.put("PL1EXCLPL3IN", new Prefix(preVowel: 'Ꮩj', preConsonant: 'ᏙᏥ', other: ''))
 
@@ -248,21 +248,21 @@ class VerbCompoundPrefixes {
         prefixes.put("DL2DL1EXCL", new Prefix(preVowel: 'ᏍᎩn', preConsonant: 'ᏍᎩᏂ', other: ''))
         prefixes.put("DL2PL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
         prefixes.put("DL2PL1EXCL", new Prefix(preVowel: 'ᎢᏍᎩy', preConsonant: 'ᎢᏍᎩ', other: ''))
-        prefixes.put("DL2DL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("DL2PL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("DL2DL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("DL2PL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("DL2PL3AN", new Prefix(preVowel: 'ᎨᏍd', preConsonant: 'ᎨᏍᏗ', other: ''))
         prefixes.put("DL2PL3IN", new Prefix(preVowel: 'ᏕᏍd', preConsonant: 'ᏕᏍᏗ', other: ''))
 
         prefixes.put("PL2SG1", new Prefix(preVowel: 'ᎢᏍᎩy', preConsonant: 'ᎢᏍᎩ', other: ''))
-        prefixes.put("PL2SG2", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("PL2SG2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("PL2SG3AN", new Prefix(preVowel: 'Ꭱj', preConsonant: 'ᎡᏥ', other: ''))
         prefixes.put("PL2SG3IN", new Prefix(preVowel: 'Ꭲj', preConsonant: 'ᎢᏥ', other: ''))
-        prefixes.put("PL2DL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("PL2DL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("PL2DL1EXCL", new Prefix(preVowel: 'ᎢᏍᎩy', preConsonant: 'ᎢᏍᎩ', other: ''))
-        prefixes.put("PL2PL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL2PL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL2DL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
-        prefixes.put("PL2PL2", new Prefix(preVowel: '', preConsonant: '', other: ''))
+        prefixes.put("PL2PL1INCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL2PL1EXCL", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL2DL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
+        prefixes.put("PL2PL2", new Prefix(preVowel: '', preConsonant: '', other: ''))//blank
         prefixes.put("PL2PL3AN", new Prefix(preVowel: 'Ꭸj', preConsonant: 'ᎨᏥ', other: ''))
         prefixes.put("PL2PL3IN", new Prefix(preVowel: 'Ꮥj', preConsonant: 'ᏕᏥ', other: ''))
 

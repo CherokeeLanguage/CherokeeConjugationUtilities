@@ -2,18 +2,9 @@ package cherokee.conjugation.verbal
 
 /**
  * Created by torr on 8/17/2015.
+ * Holds the possible values for a Prefix
  */
 class Prefix {
-//    //prefix is the whole prefix minus the vowel that would be included before a consonant
-//    String prefix
-//
-//    //this is ONLY the vowel that's included in the prefix BEFORE a consonant
-//    String consonantPrefix
-//
-//    //this is ONLY the consonant that's included in the prefix BEFORE a vowel
-//    String vowelPrefix
-//
-
     //this is the syllabary that appears before a consonant
     String preConsonant
 

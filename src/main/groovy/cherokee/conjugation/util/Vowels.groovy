@@ -9,13 +9,6 @@ class Vowels {
     final static Set VOWELS = new HashSet(6);
 
     static {
-//        VOWELS.add("a")
-//        VOWELS.add("e")
-//        VOWELS.add("i")
-//        VOWELS.add("o")
-//        VOWELS.add("u")
-//        VOWELS.add("v")
-
         VOWELS.add("Ꭰ")
         VOWELS.add("Ꭱ")
         VOWELS.add("Ꭲ")
