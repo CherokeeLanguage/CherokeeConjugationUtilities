@@ -1,5 +1,6 @@
 package cherokee.conjugation.stemming
 
+import cherokee.conjugation.constants.RemotePast
 import cherokee.conjugation.constants.Tense
 import com.cobradoc.cherokee.SyllabaryUtil
 import org.apache.commons.lang3.StringUtils
@@ -20,10 +21,15 @@ class Stemmer {
         String root = ""
 
         if (type == Tense.REMOTE_PAST) {
-
+            root = stem.substring(0, stem.indexOf("vi"))
+            def lastChar = root.charAt(root.size()-1)
+            if (RemotePast.ROOTENDINGS.contains(lastChar)) {
+                root = root.substring(0, root.size() - 1)
+                println lastChar + root
+            }
         }
 
-            return root
+        return root
     }
     
     String getStem(Tense type) {
